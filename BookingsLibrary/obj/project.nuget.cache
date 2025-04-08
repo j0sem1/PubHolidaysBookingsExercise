@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aBizG4HrcB4=",
+  "success": true,
+  "projectFilePath": "/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/BookingsLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/j0sem1/.nuget/packages/nodatime/3.2.2/nodatime.3.2.2.nupkg.sha512",
+    "/Users/j0sem1/.nuget/packages/publicholiday/3.2.0/publicholiday.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

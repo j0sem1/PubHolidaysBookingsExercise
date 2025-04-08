@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BookingsLibrary/1.0.0": {
+        "dependencies": {
+          "NodaTime": "3.2.2",
+          "PublicHoliday": "3.2.0"
+        },
+        "runtime": {
+          "BookingsLibrary.dll": {}
+        }
+      },
+      "NodaTime/3.2.2": {
+        "runtime": {
+          "lib/net8.0/NodaTime.dll": {
+            "assemblyVersion": "3.2.2.0",
+            "fileVersion": "3.2.2.0"
+          }
+        }
+      },
+      "PublicHoliday/3.2.0": {
+        "runtime": {
+          "lib/net6.0/PublicHoliday.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookingsLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NodaTime/3.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dmju5W0UYC3QP/UJM0juKAZkH0HSDMp0gH91A0+mT9M0kgyM2Jm67hUZPl/WRQLq8Lijjqmdk8kyAViWFWM7dA==",
+      "path": "nodatime/3.2.2",
+      "hashPath": "nodatime.3.2.2.nupkg.sha512"
+    },
+    "PublicHoliday/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SoaAmVGyCZSt+EYtfa74wQipSSSxkdsgG+DO0tr4cJe2/2dtaWYW2KlYTAb/3DjY0ThFHOjB1YObrdnkKYkt8A==",
+      "path": "publicholiday/3.2.0",
+      "hashPath": "publicholiday.3.2.0.nupkg.sha512"
+    }
+  }
+}

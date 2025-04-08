@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "NodaTime/3.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/NodaTime.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/NodaTime.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "PublicHoliday/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PublicHoliday.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/PublicHoliday.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NodaTime/3.2.2": {
+      "sha512": "dmju5W0UYC3QP/UJM0juKAZkH0HSDMp0gH91A0+mT9M0kgyM2Jm67hUZPl/WRQLq8Lijjqmdk8kyAViWFWM7dA==",
+      "type": "package",
+      "path": "nodatime/3.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/NodaTime.dll",
+        "lib/net6.0/NodaTime.pdb",
+        "lib/net6.0/NodaTime.xml",
+        "lib/net8.0/NodaTime.dll",
+        "lib/net8.0/NodaTime.pdb",
+        "lib/net8.0/NodaTime.xml",
+        "lib/netstandard2.0/NodaTime.dll",
+        "lib/netstandard2.0/NodaTime.pdb",
+        "lib/netstandard2.0/NodaTime.xml",
+        "nodatime.3.2.2.nupkg.sha512",
+        "nodatime.nuspec"
+      ]
+    },
+    "PublicHoliday/3.2.0": {
+      "sha512": "SoaAmVGyCZSt+EYtfa74wQipSSSxkdsgG+DO0tr4cJe2/2dtaWYW2KlYTAb/3DjY0ThFHOjB1YObrdnkKYkt8A==",
+      "type": "package",
+      "path": "publicholiday/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net35/PublicHoliday.dll",
+        "lib/net35/PublicHoliday.xml",
+        "lib/net40/PublicHoliday.dll",
+        "lib/net40/PublicHoliday.xml",
+        "lib/net46/PublicHoliday.dll",
+        "lib/net46/PublicHoliday.xml",
+        "lib/net6.0/PublicHoliday.dll",
+        "lib/net6.0/PublicHoliday.xml",
+        "lib/netstandard1.3/PublicHoliday.dll",
+        "lib/netstandard1.3/PublicHoliday.xml",
+        "lib/netstandard2.1/PublicHoliday.dll",
+        "lib/netstandard2.1/PublicHoliday.xml",
+        "publicholiday.3.2.0.nupkg.sha512",
+        "publicholiday.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "NodaTime >= 3.2.2",
+      "PublicHoliday >= 3.2.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/j0sem1/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/BookingsLibrary.csproj",
+      "projectName": "BookingsLibrary",
+      "projectPath": "/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/BookingsLibrary.csproj",
+      "packagesPath": "/Users/j0sem1/.nuget/packages/",
+      "outputPath": "/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/j0sem1/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "NodaTime": {
+            "target": "Package",
+            "version": "[3.2.2, )"
+          },
+          "PublicHoliday": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

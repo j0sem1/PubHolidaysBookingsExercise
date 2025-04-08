@@ -1,0 +1,12 @@
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/bin/Debug/net9.0/BookingsLibrary.deps.json
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/bin/Debug/net9.0/BookingsLibrary.dll
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/bin/Debug/net9.0/BookingsLibrary.pdb
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/Debug/net9.0/BookingsLibrary.csproj.AssemblyReference.cache
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/Debug/net9.0/BookingsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/Debug/net9.0/BookingsLibrary.AssemblyInfoInputs.cache
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/Debug/net9.0/BookingsLibrary.AssemblyInfo.cs
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/Debug/net9.0/BookingsLibrary.csproj.CoreCompileInputs.cache
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/Debug/net9.0/BookingsLibrary.dll
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/Debug/net9.0/refint/BookingsLibrary.dll
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/Debug/net9.0/BookingsLibrary.pdb
+/Users/j0sem1/Development/BookingsLibrary/BookingsLibrary/obj/Debug/net9.0/ref/BookingsLibrary.dll
